@@ -1,0 +1,25 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "pro": "vuepress build docs",
+    "pro:v": "vitepress build docs"
+  },
+  "keywords": [
+    "web",
+    "interview"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.4",
+    "vuepress": "^1.9.10"
+  }
+}
