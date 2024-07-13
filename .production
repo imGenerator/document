@@ -1,0 +1,8 @@
+NODE_ENV = production
+APP_TITLE = github编写文档模版
+APP_BASE = /document/
+APP_REPO = ProxyWzh/document
+APP_REPOLABEL = Github
+APP_DOCSREPO = document/
+APP_DOCSDIR = docs
+APP_HOSTNAME = https://imgenerator.github.io

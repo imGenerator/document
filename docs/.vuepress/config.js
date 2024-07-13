@@ -33,7 +33,7 @@ module.exports = {
     sidebar: [
       {
         title: "Vue3系列",
-        collapsable: false,
+        collapsable: true,
         children: [
           ["vue3/goal", "设计目标是什么？做了哪些优化?"],
           ["vue3/performance", "性能提升主要是通过哪几方面体现的？"]
@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         title: "Node系列",
-        collapsable: false,
+        collapsable: true,
         children: [
           ["node/Buffer", "Buffer 的理解？应用场景？"],
           ["node/event_loop", "event_loop"],

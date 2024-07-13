@@ -49,17 +49,14 @@ import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
-console.log("globa")
 export default {
   name: 'Layout',
-
   components: {
     Home,
     Page,
     Sidebar,
     Navbar
   },
-
   data () {
     return {
       isSidebarOpen: false
@@ -116,6 +113,7 @@ export default {
   },
 
   mounted () {
+    console.log("input",this.sidebarItems)
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
